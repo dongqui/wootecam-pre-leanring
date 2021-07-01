@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  width: 600px;
+  height: 600px;
+  background-color: lightseagreen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  height: 190px;
+  width: 190px;
+  background-color: white;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
